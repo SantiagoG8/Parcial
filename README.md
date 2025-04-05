@@ -1,4 +1,5 @@
-https://github.com/SantiagoG8/Parcial/blob/main/partial%20documentation.pdf
+[Descargar el PDF]()
+
 
 # 📋 Personal Task Manager App
 
