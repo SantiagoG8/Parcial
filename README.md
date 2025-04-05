@@ -1,50 +1,45 @@
-# Welcome to your Expo app 👋
+# 📋 Personal Task Manager App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a simple mobile task management application built with React Native and Expo. It allows users to register and log in using Firebase Authentication, and manage their personal tasks using AsyncStorage.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+- 🔐 User Registration & Login (with Firebase Auth)
+- ✅ Add, List, Complete and Delete Tasks
+- 🧠 Tasks are saved locally with AsyncStorage
+- 📱 Optimized UI for mobile devices
+- 🔁 Navigation between screens
 
-   ```bash
-   npm install
-   ```
+## 🛠️ Technologies
 
-2. Start the app
+- React Native + Expo
+- Firebase Authentication (Email/Password)
+- AsyncStorage
+- React Navigation
 
-   ```bash
-    npx expo start
-   ```
+## 📱 Screens
 
-In the output, you'll find options to open the app in a
+1. **Login Screen** 🧍‍♂️  
+   - Email and Password fields  
+   - Login button  
+   - Link to Register
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+2. **Register Screen** 📝  
+   - Email and Password fields  
+   - Register button  
+   - Link to Login
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+3. **Home Screen** 📋  
+   - Displays list of tasks  
+   - Button to add a new task  
+   - Checkbox to mark complete  
+   - Button to delete a task
 
-## Get a fresh project
+4. **Add Task Screen** ➕  
+   - Title & Description input  
+   - Save Task button
 
-When you're ready, run:
+## 📦 Installation
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   git clone https://github.com/SantiagoG8/Parcial.git
+ 
